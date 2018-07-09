@@ -36,7 +36,10 @@ A função geraEscolhas insere IDs e frases a seus respectivos objetos.
 
 ### Classe ABB
 
-A classe ABB é o tipo abstrato de dados árvore binária de busca. Com a função geraArvore, através do método insere, são inseridos os objetos escolha na árvore. Cada ID é pensado conforme a ordem das perguntas.
+A classe ABB é o tipo abstrato de dados árvore binária de busca. 
+https://drive.google.com/file/d/1ZHJPd1vhLXvSvGWkGBOLqzEvAkeR6WgE/view
+
+Com a função geraArvore, através do método insere, são inseridos os objetos escolha na árvore. Cada ID é pensado conforme a ordem das perguntas.
 
 É utilizado o método imprimeFolhas para imprimir na tela todas as localidades possíveis. A fim de que o jogador escolha uma localidade e responda as perguntas conforme essa localidade.
 
