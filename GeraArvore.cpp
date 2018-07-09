@@ -11,7 +11,7 @@ void geraArvore(Escolha *escolhas, ABB& arvoreEscolhas) {
     arvoreEscolhas.insere(escolhas[4]);
     arvoreEscolhas.insere(escolhas[6]);
 
-    //"Esta na Africa" eh verdadeiro e "Esta na Europa" eh verdadeiro
+    //"Esta na Africa" eh falso e "Esta na Europa" eh verdadeiro
     arvoreEscolhas.insere(escolhas[25]);
     arvoreEscolhas.insere(escolhas[13]);
     arvoreEscolhas.insere(escolhas[9]);
