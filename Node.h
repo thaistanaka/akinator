@@ -2,7 +2,7 @@
 #define NODE_H
 
 #include "Escolha.h"
-
+//Node utilizado na árvore
 struct Node {
     Escolha escolha;
     Node* esq;

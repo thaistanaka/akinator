@@ -54,7 +54,7 @@ void ABB::destroiArvore(NodePtr& no) {
     no = NULL;
 }
 
-void ABB::insere(Escolha opcao, NodePtr& no) {
+void ABB::insere(Escolha opcao, NodePtr& no) {          //Padrão de inserção de uma ABB, se o ID é maior, vai pra direita, se é menor, vai pra esquerda
     NodePtr aux;
 
     if ((no) == NULL) {
@@ -125,7 +125,7 @@ void ABB::remover(Escolha opcao, NodePtr& no) {
     }
 }
 
-void ABB::visita(const NodePtr& no) const {
+void ABB::visita(const NodePtr& no) const {             //Função visita exibe a frase dentro do objeto
     std::cout << no->escolha.getFrase() << endl;
 }
 
@@ -197,7 +197,7 @@ void ABB::jogar(const NodePtr& no) const
         cout << endl;
 
         if (opcao)
-            jogar(no->esq);
+            jogar(no->esq);                         //Verifica a respota do usuário, quando é 1, o próximo nó é a esquerda, quando é 0, o próximo é a direita
         else
             jogar(no->dir);
     }

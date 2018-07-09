@@ -1,9 +1,10 @@
 #include "GeraEscolhas.h"
 
 void geraEscolhas(Escolha *escolhas) {
-    for (int i = 0; i < 73; i++)
+    for (int i = 0; i < 73; i++)        // Adiciona o ID a cada objeto escolha, é usado na inserção da ávore ABB (maior -> dir, menor -> esq)
         escolhas[i].setID(i);
 
+    //São cadastradas as perguntas e respostas dos nós da árvore
     escolhas[0].setFrase("Costa do Marfim");
     escolhas[1].setFrase("Possui grande comercio de marfim?");
     escolhas[2].setFrase("Africa do Sul");
