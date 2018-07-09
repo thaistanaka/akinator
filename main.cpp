@@ -5,8 +5,8 @@
 int main() {
     bool opcao;
 
-    cout << "AKINATOR!!!!!" << endl << endl;
-
+    cout << "O Mind Reader eh uma IA super-poderosa que adivinhara o que voce esta pensando! (Por favor, pense em uma das localidades abaixo)" << endl << endl;
+    
     Escolha escolhas[73];
     ABB arvoreEscolhas;
 
@@ -15,9 +15,10 @@ int main() {
 
     arvoreEscolhas.imprimeFolhas();
 
-    cout << endl << endl << "Pense em uma dessas localidades e chegue ate ela pelo akinator" << endl << endl;
+    cout << endl << endl;
 
     arvoreEscolhas.jogar();
 
+    cout << "O Mind Reader nunca erra!" << endl;
     return 0;
 }
