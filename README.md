@@ -1,4 +1,4 @@
-# AKINATOR - Trabalho de ED 
+# MIND READER - Trabalho de ED 
 
 JOÃO AUGUSTO LEITE 743551
 
@@ -10,7 +10,7 @@ VINICIUS PANSARIM 743603
 
 ## O JOGO
 
-O jogo feito nesse trabalho é um akinator. Nele, a partir de uma árvore com perguntas e localidades, em que as folhas são as localidades, o jogador responde as perguntas de sim ou não até chegar a uma folha contendo alguma localidade. 
+O jogo feito nesse trabalho é similar ao akinator (https://pt.akinator.com/). Nele, a partir de uma árvore com perguntas e localidades, em que as folhas são as localidades, o jogador responde as perguntas de sim ou não até chegar a uma folha contendo alguma localidade. 
 
 Antes do jogo começar, é impressa na tela a lista de localidades, que podem ser cidades, países e pontos turísticos.
 
@@ -22,7 +22,7 @@ O jogo foi feito em C++.
 
 ```
 Para linux:
-	g++ *.c *.h -o jogo
+	g++ *.cpp *.h -o jogo
 	./jogo
 ```
 
