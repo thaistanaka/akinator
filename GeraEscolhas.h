@@ -3,6 +3,6 @@
 
 #include "Escolha.h"
 
-void geraEscolhas(Escolha *escolhas);
+void geraEscolhas(Escolha *escolhas); // Função que é chamada para cadastrar todas as perguntas e respostas do jogo
 
 #endif

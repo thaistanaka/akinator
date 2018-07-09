@@ -1,5 +1,5 @@
 #include "GeraArvore.h"
-
+//Os objetos escolhas já com os dados completos, são inseridos na estrutura da árvore
 void geraArvore(Escolha *escolhas, ABB& arvoreEscolhas) {
     //"Esta na Africa" eh verdadeiro
     arvoreEscolhas.insere(escolhas[7]);

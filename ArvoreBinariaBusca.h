@@ -31,7 +31,7 @@ private:
     void emOrdem(const NodePtr& no) const;
     void posOrdem(const NodePtr& no) const;
     bool estaNaArvore(Escolha opcao, NodePtr& no);
-    void imprimeFolhas(const NodePtr& no) const;
+    void imprimeFolhas(const NodePtr& no) const; // Folhas são todas as respostas do jogo
     void jogar(const NodePtr& no) const;
 };
 

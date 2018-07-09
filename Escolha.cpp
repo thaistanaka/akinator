@@ -9,7 +9,7 @@ int Escolha::getID() const {
     return ID;
 }
 
-string Escolha::getFrase() const {
+string Escolha::getFrase() const {      //Função utilizada para exibir as perguntas e respostas durante o percurso da árvore
     return frase;
 }
 
